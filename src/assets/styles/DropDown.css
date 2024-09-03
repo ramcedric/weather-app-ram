@@ -1,0 +1,52 @@
+/* StylishDropdown.css */
+
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1px;
+    margin-top: 4rem;
+    
+   
+  }
+  
+  .dropdown-label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+    
+  }
+  
+  .dropdown {
+    position: relative;
+    width: 130px;
+    z-index: 10; 
+    
+    
+    
+    
+  }
+  
+  .dropdown-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+  }
+  
+  .dropdown-select:hover {
+    border-color: #007bff;
+  }
+  
+  .dropdown-select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.2);
+  }
+  
